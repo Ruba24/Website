@@ -1,0 +1,289 @@
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #222222
+}
+
+/* Dropdown */
+
+.down-filled-triangular-arrow{
+  height: 10px;
+  width: 10px;
+  opacity: 0.5;
+}
+
+.dd-button {
+  display: inline-block;
+  background-color: rgb(23, 27, 31);
+  /* border: 1px solid gray; */
+  /* border: 12px solid gray; */
+  border-radius: 4px;
+  padding: 10px 130px 10px 17px;
+color:white;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dd-button2 {
+  display: inline-block;
+  background-color: rgba(253, 253, 253, 0.04);
+  border: 1px solid rgb(192, 188, 188);
+  border-radius: 4px;
+  padding: 10px 70px 10px 17px;
+color:rgb(0, 0, 0);
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: 42px;
+}
+.dot-button {
+  display: inline-block;
+  background-color: rgba(253, 253, 253, 0.04);
+  /* border: 1px solid rgb(192, 188, 188); */
+  border-radius: 4px;
+  /* padding: 10px 70px 10px 17px; */
+color:rgb(0, 0, 0);
+  cursor: pointer;
+  white-space: nowrap;
+  
+}
+.dd-button3 {
+  display: inline-block;
+  background-color: rgba(168, 167, 167, 0.04);
+  border: 1px solid rgb(192, 188, 188);
+  border-radius: 4px;
+  padding: 10px 70px 10px 17px;
+color:rgb(0, 0, 0);
+background: url("http://www.gentleface.com/i/free_toolbar_icons_16x16_black.png") no-repeat -30px -50px no-scroll;
+
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: 42px;
+}
+.dd-button5 {
+  display: inline-block;
+  background-color: rgba(168, 167, 167, 0.04);
+  border: 1px solid rgb(192, 188, 188);
+  border-radius: 4px;
+  padding: 10px 70px 10px 17px;
+color:rgb(0, 0, 0);
+background: url("http://www.gentleface.com/i/free_toolbar_icons_16x16_black.png") no-repeat -30px -50px no-scroll;
+
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: 42px;
+}
+
+.dd-button2:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 75px;
+  transform: translateY(-50%);
+  width: 10; 
+  height: 0; 
+  border-left: 1px solid rgb(114, 112, 112);
+  border-right: 1px solid rgb(173, 168, 168);
+  border-top: 20px solid rgb(97, 94, 94);
+  border-bottom: 14px solid rgb(139, 136, 136);
+  /* border: 5px solid black; */
+}
+
+
+input:focus {
+  border: none !important;
+}
+.custominput::before{ 
+  content: '\f277';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+
+}
+.dd-button3::after{ 
+  content: '\f277';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+
+}
+.dd-button5::after{ 
+  content: '\f163';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+
+}
+.dd-button:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+  width: 10; 
+  height: 0; 
+  border-left: 1px solid rgb(255, 254, 254);
+  border-right: 1px solid rgb(255, 255, 255);
+  border-top: 10px solid rgb(255, 252, 252);
+  border-bottom: 13px solid rgb(255, 251, 251);
+  /* border: 5px solid black; */
+}
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgb(255, 255, 255);
+  /* border: 5px solid black; */
+}
+.dd-button2:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 55px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgb(117, 115, 115);
+  /* border: 5px solid black; */
+}
+
+.dd-button:hover {
+  background-color: rgb(70, 162, 241);
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dot-menu {
+  position: absolute;
+  top: 100%;
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 999;
+  padding: 6px;
+  width: 72px;
+  margin: 2px 10px 0 -52px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  float: left;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+.dd-input + .dot-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+.dd-input:checked + .dot-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+.dot-menu li  {
+  margin-top: 5px;
+
+}
+.dot-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+.dot-menu li.divider{
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+}
+.MuiTabs-flexContainer {
+  /* display: flex; */
+  width: 750px;
+}
+.makeStyles-root-4 {
+  width: 800px !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5 !important;
+}
+.makeStyles-root-35 {
+  width: 758px !important;
+  background-color: #fff;
+}
+.makeStyles-root-25 {
+  width: 750px !important;
+  background-color: #fff;
+}
+.makeStyles-root-26 {
+  width: 750px !important;
+  background-color: #fff;
+}
+.MuiTabs-fixed {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+@media (min-width: 600px) {
+
+.MuiTab-root {
+    min-width: 70px !important;
+}
+}
